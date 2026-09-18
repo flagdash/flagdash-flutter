@@ -1,0 +1,16 @@
+name: flagdash
+description: Official client-side FlagDash SDK for Flutter feature flags, remote config, AI config, translations, and experiments.
+version: 0.1.0
+homepage: https://flagdash.com/docs#sdk-flutter
+repository: https://github.com/flagdash/flagdash-flutter
+issue_tracker: https://github.com/flagdash/flagdash-flutter/issues
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+dependencies:
+  flutter: { sdk: flutter }
+  http: ^1.4.0
+  shared_preferences: ^2.5.3
+dev_dependencies:
+  flutter_test: { sdk: flutter }
+  lints: ^5.1.1
